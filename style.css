@@ -124,4 +124,7 @@ li{
         width: 80%;
         min-height: 24rem;
       }
+      .hub-lead {
+        max-width: 12rem;
+      }
  }
