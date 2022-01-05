@@ -68,6 +68,7 @@ li{
   font-style: normal;
   font-weight: normal;
   cursor: pointer;
+  font-family: inherit;
 }
 .hub__details{
     display: flex;
@@ -82,6 +83,12 @@ li{
     font-weight: 600;
     font-size: 14px;
     color: #6F7189;
+ }
+ .hub__details ul li:not(:first-child) {
+    color: #171228;
+    font-weight: normal;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
  }
  .hub__details ul li:hover{
      background-color: #F1F2FF;
